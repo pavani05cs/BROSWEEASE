@@ -1,3 +1,6 @@
+# 🌐 Live Project
+
+Check out the live project here: [https://browseease.netlify.app/](https://browseease.netlify.app/)
  ---
 
 ## 📂 Problem Statement PPT
