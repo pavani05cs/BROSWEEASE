@@ -1,11 +1,3 @@
-# 🌐 Live Project
-
-Check out the live project here: [https://browseease.netlify.app/](https://browseease.netlify.app/)
- ---
-
-## 📂 Problem Statement PPT
-
-This is the PPT of my problem statement: [View PPT](https://drive.google.com/file/d/1VAW4MmE0PkdeitL7S2BiRg38Ljq8tHDt/view?usp=drivesdk)
 # BROWSEEASE
 
 ---
@@ -99,10 +91,23 @@ BROWSEEASE is a Web Navigator Agent that takes natural language instructions and
 - Custom scraping engine
 - Vector database for semantic search
 
+
 **DevOps:**
 
 - Git (version control)
 - Netlify (frontend deployment)
+
+---
+
+# 🌐 Live Project
+
+Check out the live project here: [https://browseease.netlify.app/](https://browseease.netlify.app/)
+
+---
+
+## 📂 Problem Statement PPT
+
+This is the PPT of my problem statement: [View PPT](https://drive.google.com/file/d/1VAW4MmE0PkdeitL7S2BiRg38Ljq8tHDt/view?usp=drivesdk)
 
 ---
 
