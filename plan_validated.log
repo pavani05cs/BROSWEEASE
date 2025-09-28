@@ -1,0 +1,90 @@
+QUERY: Find me electric scooters with good battery life
+VALIDATION: SUCCESS
+PLAN: {
+  "category": "EV Scooters",
+  "confidence": 0.8500000000000001,
+  "filters": {},
+  "sources": [
+    "OlaElectric",
+    "Ather",
+    "TVSMotor",
+    "HeroElectric"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ],
+  "reasoning": {
+    "detected_category": "EV Scooters",
+    "confidence_score": 0.8500000000000001,
+    "applied_filters": {},
+    "selected_sources": [
+      "OlaElectric",
+      "Ather",
+      "TVSMotor",
+      "HeroElectric"
+    ],
+    "query_understanding": "Understood query as a request for EV Scooters with specific constraints."
+  }
+}
+
+QUERY: Find me electric scooters with good battery life
+VALIDATION: SUCCESS
+PLAN: {
+  "category": "EV Scooters",
+  "confidence": 0.8500000000000001,
+  "filters": {},
+  "sources": [
+    "OlaElectric",
+    "Ather",
+    "TVSMotor",
+    "HeroElectric"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ],
+  "reasoning": {
+    "detected_category": "EV Scooters",
+    "confidence_score": 0.8500000000000001,
+    "applied_filters": {},
+    "selected_sources": [
+      "OlaElectric",
+      "Ather",
+      "TVSMotor",
+      "HeroElectric"
+    ],
+    "query_understanding": "Understood query as a request for EV Scooters with specific constraints."
+  }
+}
+
+QUERY: Find me electric scooters with good battery life
+VALIDATION: SUCCESS
+PLAN: {
+  "category": "EV Scooters",
+  "confidence": 0.8500000000000001,
+  "filters": {},
+  "sources": [
+    "OlaElectric",
+    "Ather",
+    "TVSMotor",
+    "HeroElectric"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ],
+  "reasoning": {
+    "detected_category": "EV Scooters",
+    "confidence_score": 0.8500000000000001,
+    "applied_filters": {},
+    "selected_sources": [
+      "OlaElectric",
+      "Ather",
+      "TVSMotor",
+      "HeroElectric"
+    ],
+    "query_understanding": "Understood query as a request for EV Scooters with specific constraints."
+  }
+}
+

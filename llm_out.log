@@ -1,0 +1,204 @@
+QUERY: What are the best phones under $500?
+CLASSIFICATION: {
+  "category": "Mobiles",
+  "confidence": 0.45,
+  "filters": {},
+  "sources": [
+    "Amazon",
+    "Flipkart",
+    "BestBuy",
+    "Croma"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: What are the best phones under $500?
+CLASSIFICATION: {
+  "category": "Mobiles",
+  "confidence": 0.45,
+  "filters": {},
+  "sources": [
+    "Amazon",
+    "Flipkart",
+    "BestBuy",
+    "Croma"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: Find me electric scooters with good battery life
+CLASSIFICATION: {
+  "category": "EV Scooters",
+  "confidence": 0.8500000000000001,
+  "filters": {},
+  "sources": [
+    "OlaElectric",
+    "Ather",
+    "TVSMotor",
+    "HeroElectric"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: Find me electric scooters with good battery life
+CLASSIFICATION: {
+  "category": "EV Scooters",
+  "confidence": 0.8500000000000001,
+  "filters": {},
+  "sources": [
+    "OlaElectric",
+    "Ather",
+    "TVSMotor",
+    "HeroElectric"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: What are the best phones under $500?
+CLASSIFICATION: {
+  "category": "Mobiles",
+  "confidence": 0.45,
+  "filters": {},
+  "sources": [
+    "Amazon",
+    "Flipkart",
+    "BestBuy",
+    "Croma"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: What are the best phones under $500?
+CLASSIFICATION: {
+  "category": "Mobiles",
+  "confidence": 0.45,
+  "filters": {},
+  "sources": [
+    "Amazon",
+    "Flipkart",
+    "BestBuy",
+    "Croma"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: Find me electric scooters with good battery life
+CLASSIFICATION: {
+  "category": "EV Scooters",
+  "confidence": 0.8500000000000001,
+  "filters": {},
+  "sources": [
+    "OlaElectric",
+    "Ather",
+    "TVSMotor",
+    "HeroElectric"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: Find me electric scooters with good battery life
+CLASSIFICATION: {
+  "category": "EV Scooters",
+  "confidence": 0.8500000000000001,
+  "filters": {},
+  "sources": [
+    "OlaElectric",
+    "Ather",
+    "TVSMotor",
+    "HeroElectric"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: What are the best phones under $500?
+CLASSIFICATION: {
+  "category": "Mobiles",
+  "confidence": 0.45,
+  "filters": {},
+  "sources": [
+    "Amazon",
+    "Flipkart",
+    "BestBuy",
+    "Croma"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: What are the best phones under $500?
+CLASSIFICATION: {
+  "category": "Mobiles",
+  "confidence": 0.45,
+  "filters": {},
+  "sources": [
+    "Amazon",
+    "Flipkart",
+    "BestBuy",
+    "Croma"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: Find me electric scooters with good battery life
+CLASSIFICATION: {
+  "category": "EV Scooters",
+  "confidence": 0.8500000000000001,
+  "filters": {},
+  "sources": [
+    "OlaElectric",
+    "Ather",
+    "TVSMotor",
+    "HeroElectric"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
+QUERY: Find me electric scooters with good battery life
+CLASSIFICATION: {
+  "category": "EV Scooters",
+  "confidence": 0.8500000000000001,
+  "filters": {},
+  "sources": [
+    "OlaElectric",
+    "Ather",
+    "TVSMotor",
+    "HeroElectric"
+  ],
+  "actions": [
+    "search",
+    "summarize"
+  ]
+}
+
