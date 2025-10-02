@@ -20,4 +20,4 @@ app = FastAPI(
 from app.api import router as api_router
 
 # Register routes
-app.include_router(api_router)
+app.include_router(api_router, prefix="/api")

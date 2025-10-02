@@ -1,7 +1,6 @@
 # BROWSEEASE
 
 ---
-
 ## 🆔 Problem Statement ID: HACXPB002
 
 ### Problem Statement: Web Navigator AI Agent
@@ -17,15 +16,25 @@ Build an AI Agent that can take natural language instructions and autonomously d
 
 ---
 
+
+## 🤔 Problem Understanding
+- Users need more than basic web scraping; they want an agent that understands natural language instructions.
+- Existing tools often break when website layouts change, causing unreliable automation.
+- Lack of transparency in current solutions makes it hard for users to trust results.
+- Real-time feedback and explainable reasoning are missing in most web automation tools.
+- There is a demand for resilient, local-first solutions that empower users with control and understanding.
+
 ---
 
-## 📝 Problem Statements Chosen
+## 🦄 Uniqueness of the Solution
+- Uses local LLM-powered planning for privacy and explainability.
+- Employs self-healing browser automation that adapts to changing website layouts.
+- Provides live progress updates and transparent logs for every action taken.
+- Delivers structured, side-by-side comparisons and actionable insights, not just raw data.
+- All logic runs locally, ensuring user data privacy and full transparency.
+- Caching and retry mechanisms make repeated queries instant and robust against errors.
 
-1. **Web Automation Resilience:**
-   - Need for a tool that can autonomously browse the web, extract structured information, and adapt to changing website layouts without breaking.
-2. **Transparent, Local Reasoning:**
-   - Users want to understand and trust how results are derived, with all planning and reasoning happening locally and logs available for every step.
-
+---
 ---
 
 ## 🚀 Detailed Proposal & Prototype Plan
@@ -117,7 +126,7 @@ This is the PPT of my problem statement: [View PPT](https://drive.google.com/fil
 | ----------- | ----------------------------- | ---------------------------------------------------------------------------------- |
 | R. Pavani   | Project Lead & Frontend Lead  | Project architecture, UI/UX, React components, state management, team coordination |
 | M. Vishnu   | Backend Lead                  | Backend API, AI model integration, performance optimization                        |
-| K. Karthik  | Full Stack Developer          | WebSocket implementation, API integration, search algorithm, testing               |
+| K. Kartheek  | Full Stack Developer          | WebSocket implementation, API integration, search algorithm, testing               |
 | SK. Haseena | AI & Data Specialist          | Web scraping, data pipelines, result ranking, content summarization                |
 | T. Jyothi   | QA & Documentation Specialist | QA, user documentation, UX research, accessibility                                 |
 
@@ -125,4 +134,5 @@ This is the PPT of my problem statement: [View PPT](https://drive.google.com/fil
 
 ## 📢 Project Status
 
-> **Note:** The full prototype is not yet complete. We are currently solving some errors while connecting the Ollama2 LLM model, so the work is in progress.
+> **Note:** The full prototype is not yet complete. We are currently solving some errors while connecting the (Ollama2) LLM model. And there is no much time to take our video clearly.so we were not presented our whole individual efforts in the video.
+As a team we can complete our work in next round...
