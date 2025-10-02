@@ -50,8 +50,9 @@ const Index = () => {
   const [summary, setSummary] = useState<SummaryData | null>(null);
   const { toast } = useToast();
 
-  // Mock data for demo
-  const mockResults: ProductResult[] = [
+
+  // Category-specific mock data
+  const mockMobiles: ProductResult[] = [
     {
       id: "1",
       source: "Amazon",
@@ -114,6 +115,191 @@ const Index = () => {
     }
   ];
 
+  const mockLaptops: ProductResult[] = [
+    {
+      id: "1",
+      source: "Amazon",
+      name: "HP Pavilion 15 (2024)",
+      price: "₹65,999",
+      originalPrice: "₹72,999",
+      specs: ["15.6″ FHD Display", "Intel i5-12450H", "16GB RAM", "512GB SSD"],
+      score: 8.9,
+      rating: 4.2,
+      reviews: 3456,
+      url: "#",
+      isTopPick: true
+    },
+    {
+      id: "2",
+      source: "Flipkart",
+      name: "Lenovo IdeaPad Slim 3",
+      price: "₹49,999",
+      originalPrice: "₹54,999",
+      specs: ["14″ FHD Display", "AMD Ryzen 5 5500U", "8GB RAM", "512GB SSD"],
+      score: 8.5,
+      rating: 4.0,
+      reviews: 2345,
+      url: "#"
+    },
+    {
+      id: "3",
+      source: "Croma",
+      name: "Dell Inspiron 14",
+      price: "₹58,999",
+      originalPrice: "₹62,999",
+      specs: ["14″ FHD Display", "Intel i5-1235U", "16GB RAM", "512GB SSD"],
+      score: 8.3,
+      rating: 4.1,
+      reviews: 1890,
+      url: "#"
+    },
+    {
+      id: "4",
+      source: "Amazon",
+      name: "Apple MacBook Air M1",
+      price: "₹84,900",
+      specs: ["13.3″ Retina Display", "Apple M1 Chip", "8GB RAM", "256GB SSD"],
+      score: 9.5,
+      rating: 4.8,
+      reviews: 12000,
+      url: "#"
+    },
+    {
+      id: "5",
+      source: "Reliance Digital",
+      name: "ASUS VivoBook 15",
+      price: "₹42,999",
+      specs: ["15.6″ FHD Display", "Intel i3-1115G4", "8GB RAM", "512GB SSD"],
+      score: 7.9,
+      rating: 3.8,
+      reviews: 950,
+      url: "#"
+    }
+  ];
+
+  const mockLaptopSummary: SummaryData = {
+    recommendation: "The HP Pavilion 15 (2024) offers the best balance of performance and value for most users. For premium experience, consider the Apple MacBook Air M1.",
+    keyInsights: [
+      "Intel i5 and AMD Ryzen 5 are top picks for mid-range laptops",
+      "SSD storage and 8GB+ RAM are now standard",
+      "Apple M1 chip delivers unmatched battery life and performance",
+      "Look for FHD displays for better clarity"
+    ],
+    priceRange: {
+      min: "₹42,999",
+      max: "₹84,900",
+      average: "₹60,000"
+    },
+    topBrands: ["HP", "Lenovo", "Dell", "Apple", "ASUS"],
+    considerations: [
+      "Check for student discounts and exchange offers",
+      "Apple laptops offer longer software support",
+      "SSD size impacts speed and storage capacity"
+    ]
+  };
+
+  const mockEarbuds: ProductResult[] = [
+    {
+      id: "1",
+      source: "Amazon",
+      name: "Sony WF-1000XM4",
+      price: "₹19,990",
+      specs: ["Noise Cancellation", "30hr Battery", "IPX4 Water Resistant"],
+      score: 9.3,
+      rating: 4.7,
+      reviews: 5000,
+      url: "#",
+      isTopPick: true
+    },
+    {
+      id: "2",
+      source: "Flipkart",
+      name: "OnePlus Buds Pro 2",
+      price: "₹11,999",
+      specs: ["ANC", "38hr Battery", "IP55 Water Resistant"],
+      score: 8.8,
+      rating: 4.5,
+      reviews: 3200,
+      url: "#"
+    },
+    {
+      id: "3",
+      source: "Croma",
+      name: "JBL Tune 230NC",
+      price: "₹5,999",
+      specs: ["ANC", "40hr Battery", "IPX4 Water Resistant"],
+      score: 8.1,
+      rating: 4.2,
+      reviews: 2100,
+      url: "#"
+    }
+  ];
+
+  const mockEarbudsSummary: SummaryData = {
+    recommendation: "Sony WF-1000XM4 is the best choice for audiophiles seeking top-tier noise cancellation and battery life.",
+    keyInsights: [
+      "ANC is now standard in premium earbuds",
+      "Battery life ranges from 30-40 hours",
+      "Water resistance is a must for workouts"
+    ],
+    priceRange: {
+      min: "₹5,999",
+      max: "₹19,990",
+      average: "₹12,000"
+    },
+    topBrands: ["Sony", "OnePlus", "JBL"],
+    considerations: [
+      "Look for multi-device pairing",
+      "Check for fit and comfort",
+      "Warranty and service support are important"
+    ]
+  };
+
+  const mockTVs: ProductResult[] = [
+    {
+      id: "1",
+      source: "Amazon",
+  name: "Samsung 55\" 4K Ultra HD Smart LED TV",
+      price: "₹49,999",
+      specs: ["4K UHD", "Smart TV", "55-inch", "HDR"],
+      score: 9.0,
+      rating: 4.5,
+      reviews: 8000,
+      url: "#",
+      isTopPick: true
+    },
+    {
+      id: "2",
+      source: "Flipkart",
+  name: "Sony Bravia 50\" 4K UHD LED Smart TV",
+      price: "₹47,999",
+      specs: ["4K UHD", "Smart TV", "50-inch", "HDR"],
+      score: 8.7,
+      rating: 4.4,
+      reviews: 6500,
+      url: "#"
+    }
+  ];
+
+  const mockTVSummary: SummaryData = {
+    recommendation: "Samsung 55\" 4K UHD Smart TV offers the best value for large-screen entertainment under ₹50k.",
+    keyInsights: [
+      "4K UHD and HDR are standard in this price range",
+      "Smart features include streaming apps and voice control"
+    ],
+    priceRange: {
+      min: "₹47,999",
+      max: "₹49,999",
+      average: "₹48,999"
+    },
+    topBrands: ["Samsung", "Sony"],
+    considerations: [
+      "Check for HDMI ports and connectivity",
+      "Wall-mount options and warranty coverage"
+    ]
+  };
+
+  // Default summary for mobiles
   const mockSummary: SummaryData = {
     recommendation: "Based on our analysis, the Samsung Galaxy A54 5G offers the best value for money under ₹30k with excellent camera quality, reliable performance, and strong brand support. The Super AMOLED display and 50MP camera make it ideal for photography enthusiasts.",
     keyInsights: [
@@ -135,12 +321,29 @@ const Index = () => {
     ]
   };
 
+
   const simulateSearch = async (query: string) => {
     setIsSearching(true);
     setProgress(0);
     setMessages([]);
     setResults([]);
     setSummary(null);
+
+    // Determine category from query
+    const queryLower = query.toLowerCase();
+    let results: ProductResult[] = mockMobiles;
+    let summary: SummaryData = mockSummary;
+
+    if (queryLower.includes("laptop")) {
+      results = mockLaptops;
+      summary = mockLaptopSummary;
+    } else if (queryLower.includes("earbud") || queryLower.includes("headphone")) {
+      results = mockEarbuds;
+      summary = mockEarbudsSummary;
+    } else if (queryLower.includes("tv")) {
+      results = mockTVs;
+      summary = mockTVSummary;
+    }
 
     const searchSteps = [
       { message: `Starting search for: "${query}"`, type: 'info' as const, details: 'Initializing AI agent...' },
@@ -172,19 +375,19 @@ const Index = () => {
 
       // Show results after processing step
       if (i === 7) {
-        setTimeout(() => setResults(mockResults), 500);
+        setTimeout(() => setResults(results), 500);
       }
 
       // Show summary after final step
       if (i === searchSteps.length - 1) {
-        setTimeout(() => setSummary(mockSummary), 800);
+        setTimeout(() => setSummary(summary), 800);
       }
     }
 
     setIsSearching(false);
     toast({
       title: "Search Complete!",
-      description: "Found 5 products matching your criteria",
+      description: `Found ${results.length} products matching your criteria`,
     });
   };
 
